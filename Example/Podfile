@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'KhuongPodCommon_Example' do
+  pod 'KhuongPodCommon', :path => '../'
+
+  target 'KhuongPodCommon_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
