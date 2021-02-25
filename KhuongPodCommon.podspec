@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   
   s.swift_version = '4.0'
 
-  s.source_files = 'KhuongPodCommon/Classes/**/*'
+  s.source_files = 'Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'KhuongPodCommon' => ['KhuongPodCommon/Assets/*.png']
